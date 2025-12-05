@@ -1,0 +1,70 @@
+/* Task 3.2 */ 
+header {
+    height: 100px;
+}
+
+main {
+    height: 500px;
+    display: flex;
+}
+
+main > * {
+    position: relative;
+    flex: 1 1 0;
+}
+
+#leftPanel {
+    background-color: skyblue;
+}
+
+#content {
+    background-color: lightcyan;
+}
+
+#rightPanel {
+    background-color: lightblue;
+}
+
+/* Task 3.3 */
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 8px solid whitesmoke;
+    border-top: 8px solid gray;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+footer {
+    height: 100px;
+}
+
+/* Task 3.4 */
+#content-header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+/* Task 6 */
+.highlight {
+    background-color: yellow;
+}
